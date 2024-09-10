@@ -1,0 +1,61 @@
+
+table{
+    background-color: white;
+    width: 40vw;
+    border-radius: 25px;
+    padding: 2%;
+    font-family:sans-serif;
+    height: auto;
+
+}
+
+.table{
+    border: 2px solid whitesmoke;
+    box-shadow: 0 3px 10px  rgb(135, 158, 251);
+}
+.table td{
+    border: 2px solid whitesmoke;
+}
+.table h3{
+    text-align: center;
+    width: 100%;
+    margin-left: 45%;
+}
+.table td{
+   
+    border-radius: 5px;
+    height: 2rem; 
+    &:hover{
+        background-color: whitesmoke;
+    }  
+}
+
+.pieChart{
+    background-color: white;
+    width: 30vw;
+    padding: 2%;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 35vh;
+    border: 2px solid whitesmoke;
+    box-shadow:  0 3px 10px  rgb(135, 158, 251);
+}
+.pre{
+    font-weight: bolder;
+    color: red;
+}
+.abs{
+    font-weight: bolder;
+    color: rgb(10, 190, 10);
+}
+.holi{
+    font-weight: bolder;
+    color: #ff2678;
+}
+.pen{
+    font-weight: bolder;
+    color: blue;
+}
+
+
